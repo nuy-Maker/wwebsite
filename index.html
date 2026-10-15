@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字隐私安护险｜生前有赔付·身后可执行</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <script>
+        tailwind.config={
+            theme:{
+                extend:{
+                    colors:{
+                        main:"#0F3479",
+                        blue:"#165DFF"
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html{scroll-behavior:smooth;}
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+<!--导航-->
+<header class="bg-main text-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="flex gap-2 items-center">
+            <i class="fa fa-shield text-2xl text-sky-300"></i>
+            <span class="text-xl font-bold">数字隐私安护险</span>
+        </div>
+        <nav class="hidden md:flex gap-5 text-sm">
+            <a href="#pain">痛点</a>
+            <a href="#market">市场分析</a>
+            <a href="#product">产品</a>
+            <a href="#price">定价</a>
+            <a href="#data">测算</a>
+        </nav>
+    </div>
+</header>
+
+<!--首屏Banner-->
+<section class="bg-gradient-to-br from-main to-[#0b2048] text-white py-16">
+    <div class="container mx-auto px-4">
+        <div class="max-w-2xl">
+            <div class="text-sm border border-sky-300 inline px-2 py-1 rounded mb-4">2026浙江省大学生金融创新大赛｜金融产品设计</div>
+            <h1 class="text-4xl font-bold mb-3">生前有赔付 · 身后可执行</h1>
+            <p class="text-xl text-sky-100 mb-5">全生命周期个人数字隐私风险市场化对冲工具</p>
+            <p class="opacity-90 mb-6">填补市场空白：同时覆盖<strong>生前数据泄露损失维权</strong> + <strong>身故后数字足迹处置</strong></p>
+            <a href="#product" class="bg-blue px-5 py-2.5 rounded-lg inline-block">查看产品方案</a>
+        </div>
+    </div>
+</section>
+
+<!--现实痛点-->
+<section id="pain" class="py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold text-main text-center mb-8">现实痛点</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-xl shadow">
+                <h3 class="font-bold text-lg mb-3 text-blue"><i class="fa fa-user-secret mr-2"></i>生前风险</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• 数据泄露常态化，诈骗骚扰高发（68%受访者遭遇）</li>
+                    <li>• 普通人举证难、维权贵、隐私无修复渠道</li>
+                    <li>• 现有保险只赔账户盗刷，不覆盖维权、信息泄露</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow">
+                <h3 class="font-bold text-lg mb-3 text-blue"><i class="fa fa-book-dead mr-2"></i>身后真空</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• 逝者照片、聊天、账号遗留，无合法执行主体</li>
+                    <li>• 出现AI复活、泄露逝者隐私诈骗乱象</li>
+                    <li>• 缺少销毁/封存/移交数字足迹市场化方案</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--市场分析-->
+<section id="market" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold text-main text-center mb-8">市场分析</h2>
+
+        <div class="grid md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-white p-6 rounded-xl shadow">
+                <h3 class="font-bold text-main text-lg mb-4">调研数据（样本 N=340）</h3>
+                <div class="space-y-3 text-sm">
+                    <div class="flex items-center justify-between bg-red-50 p-3 rounded">
+                        <span>遭遇精准诈骗或骚扰</span>
+                        <span class="text-red-600 font-bold">68%</span>
+                    </div>
+                    <div class="flex items-center justify-between bg-orange-50 p-3 rounded">
+                        <span>曾发生账号被盗或异常登录</span>
+                        <span class="text-orange-600 font-bold">41%</span>
+                    </div>
+                    <div class="flex items-center justify-between bg-yellow-50 p-3 rounded">
+                        <span>担心个人信息被滥用</span>
+                        <span class="text-yellow-700 font-bold">76%</span>
+                    </div>
+                    <div class="flex items-center justify-between bg-green-50 p-3 rounded">
+                        <span>未遭受隐私侵害</span>
+                        <span class="text-green-600 font-bold">19%</span>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">数据泄露已成为个人高频风险</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow">
+                <h3 class="font-bold text-main text-lg mb-4">潜在投保人群规模测算</h3>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between p-3 bg-blue-50 rounded">
+                        <span>2026潜在投保人群</span>
+                        <span class="text-blue-700 font-bold">3200万人</span>
+                    </div>
+                    <div class="flex justify-between p-3 bg-blue-50 rounded">
+                        <span>目标年龄人口基数</span>
+                        <span class="text-blue-700 font-bold">5.2亿人</span>
+                    </div>
+                    <div class="flex justify-between p-3 bg-blue-50 rounded">
+                        <span>初期渗透率假设</span>
+                        <span class="text-blue-700 font-bold">0.5%-1%</span>
+                    </div>
+                    <div class="flex justify-between p-3 bg-blue-50 rounded">
+                        <span>长期目标人群</span>
+                        <span class="text-blue-700 font-bold">约1亿人</span>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">数字隐私风险意识提升将带动参保需求</p>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow p-6">
+            <h3 class="font-bold text-main text-lg mb-4">竞品对比</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead class="bg-main text-white">
+                        <tr>
+                            <th class="px-4 py-3 text-left">对比维度</th>
+                            <th class="px-4 py-3 text-left">企业网络安全险</th>
+                            <th class="px-4 py-3 text-left">个人账户安全险</th>
+                            <th class="px-4 py-3 text-left">数字隐私安护险</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y">
+                        <tr>
+                            <td class="px-4 py-3 font-medium">保障对象</td>
+                            <td class="px-4 py-3">企业机构</td>
+                            <td class="px-4 py-3">个人账户</td>
+                            <td class="px-4 py-3 text-blue font-medium">个人及家庭</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-3 font-medium">资金损失补偿</td>
+                            <td class="px-4 py-3">企业损失</td>
+                            <td class="px-4 py-3">账户盗刷</td>
+                            <td class="px-4 py-3 text-blue font-medium">盗用、诈骗全部损失</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-3 font-medium">维权费用赔付</td>
+                            <td class="px-4 py-3">企业抗辩费</td>
+                            <td class="px-4 py-3">不支持</td>
+                            <td class="px-4 py-3 text-blue font-medium">律师、公证、诉讼费</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-3 font-medium">隐私修复服务</td>
+                            <td class="px-4 py-3">不支持</td>
+                            <td class="px-4 py-3">不支持</td>
+                            <td class="px-4 py-3 text-blue font-medium">监测、异议、清除</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-3 font-medium">身后隐私处置</td>
+                            <td class="px-4 py-3">不支持</td>
+                            <td class="px-4 py-3">不支持</td>
+                            <td class="px-4 py-3 text-blue font-medium">销毁 / 封存 / 移交</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--核心产品双模块-->
+<section id="product" class="py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold text-main text-center mb-8">产品方案：双模块架构</h2>
+        <div class="grid md:grid-cols-2 gap-8 mb-8">
+            <div class="bg-blue text-white p-6 rounded-xl shadow">
+                <h3 class="text-xl font-bold mb-4">🔹生前风险保障模块</h3>
+                <ul class="space-y-3 mb-5">
+                    <li>✅ 账户盗用、电信诈骗资金损失赔付</li>
+                    <li>✅ 维权费用：律师、公证、鉴定、诉讼支出</li>
+                    <li>✅ 隐私修复：泄露监测、征信异议、数据清除</li>
+                </ul>
+                <div class="mb-4">保险期间1年，每次事故免赔200元，赔付比例90%</div>
+                <div class="space-y-3 mt-4">
+                    <div class="bg-white/10 p-3 rounded flex justify-between items-center">
+                        <span>基础版</span>
+                        <span>保额5万元｜<strong>168元/年</strong></span>
+                    </div>
+                    <div class="bg-white/10 p-3 rounded flex justify-between items-center">
+                        <span>进阶版（主推基准产品）</span>
+                        <span>保额10万元｜<strong>268元/年</strong></span>
+                    </div>
+                    <div class="bg-white/10 p-3 rounded flex justify-between items-center">
+                        <span>尊享版</span>
+                        <span>保额20万元｜<strong>428元/年</strong></span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-main text-white p-6 rounded-xl shadow">
+                <h3 class="text-xl font-bold mb-4">🔹身后隐私执行模块（终身保障）</h3>
+                <ul class="space-y-3 mb-5">
+                    <li>✅ 投保人预先设置PED不可撤销隐私执行指令</li>
+                    <li>✅ 三态处置：数字足迹「销毁 / 封存 / 移交」</li>
+                    <li>✅ 分片双钥托管，出具销毁保真BFI凭证</li>
+                    <li>✅ 杜绝AI逝者复刻、遗留隐私泄露诈骗</li>
+                </ul>
+                <div class="mb-4">采用第四套生命表精算，保费随投保年龄差异化定价</div>
+                <div class="space-y-3 mt-4">
+                    <div class="bg-white/10 p-3 rounded flex justify-between items-center">
+                        <span>18-30岁</span>
+                        <span><strong>52元/年</strong></span>
+                    </div>
+                    <div class="bg-white/10 p-3 rounded flex justify-between items-center">
+                        <span>31-50岁</span>
+                        <span><strong>96元/年</strong></span>
+                    </div>
+                    <div class="bg-white/10 p-3 rounded flex justify-between items-center">
+                        <span>51-65岁</span>
+                        <span><strong>181元/年</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--产品投保规则卡片-->
+        <div class="bg-white p-6 rounded-xl shadow max-w-4xl mx-auto">
+            <h4 class="font-bold text-lg mb-4 text-main">📋 产品基础投保规则</h4>
+            <div class="grid md:grid-cols-4 gap-4 text-sm text-gray-700">
+                <div class="p-3 bg-gray-50 rounded">投保年龄：18-65周岁</div>
+                <div class="p-3 bg-gray-50 rounded">等待期：30天</div>
+                <div class="p-3 bg-gray-50 rounded">承保方式：线上投保、风险自动评分</div>
+                <div class="p-3 bg-gray-50 rounded">增值服务：7×24应急响应、季度隐私风险报告</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--核心精算定价-->
+<section id="price" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold text-main text-center mb-8">核心精算定价</h2>
+
+        <div class="grid md:grid-cols-3 gap-5 mb-6">
+            <div class="bg-white p-5 rounded-xl shadow border-t-4 border-blue">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-10 h-10 rounded-full bg-blue/10 flex items-center justify-center">
+                        <i class="fa fa-calculator text-blue text-xl"></i>
+                    </div>
+                    <h4 class="font-bold text-main text-lg">PDES风险评分</h4>
+                </div>
+                <p class="text-sm text-gray-700 mb-2">4维个人数据暴露风险评估</p>
+                <div class="space-y-2 text-sm">
+                    <div class="flex justify-between bg-gray-50 px-3 py-2 rounded">
+                        <span>身份信息暴露</span>
+                        <span class="text-main font-medium">权重25%</span>
+                    </div>
+                    <div class="flex justify-between bg-gray-50 px-3 py-2 rounded">
+                        <span>账号行为风险</span>
+                        <span class="text-main font-medium">权重30%</span>
+                    </div>
+                    <div class="flex justify-between bg-gray-50 px-3 py-2 rounded">
+                        <span>设备与网络环境</span>
+                        <span class="text-main font-medium">权重20%</span>
+                    </div>
+                    <div class="flex justify-between bg-gray-50 px-3 py-2 rounded">
+                        <span>安全习惯</span>
+                        <span class="text-main font-medium">权重25%</span>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-3">安全习惯越好，费率越低</p>
+            </div>
+
+            <div class="bg-white p-5 rounded-xl shadow border-t-4 border-main">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-10 h-10 rounded-full bg-main/10 flex items-center justify-center">
+                        <i class="fa fa-area-chart text-main text-xl"></i>
+                    </div>
+                    <h4 class="font-bold text-main text-lg">POT‑GPD极值模型</h4>
+                </div>
+                <p class="text-sm text-gray-700 mb-2">处理低频高损的隐私泄露损失</p>
+                <div class="bg-gray-50 p-3 rounded text-sm space-y-2">
+                    <div class="flex justify-between">
+                        <span>尾部风险识别</span>
+                        <span class="text-main font-medium">高频小额损失</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>极端损失拟合</span>
+                        <span class="text-main font-medium">低频高额赔付</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>再保险分层</span>
+                        <span class="text-main font-medium">稳定经营结果</span>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-3">重点覆盖尾部风险，降低赔付波动</p>
+            </div>
+
+            <div class="bg-white p-5 rounded-xl shadow border-t-4 border-blue">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-10 h-10 rounded-full bg-blue/10 flex items-center justify-center">
+                        <i class="fa fa-users text-blue text-xl"></i>
+                    </div>
+                    <h4 class="font-bold text-main text-lg">第四套生命表</h4>
+                </div>
+                <p class="text-sm text-gray-700 mb-2">身后执行成本按年龄精算</p>
+                <div class="bg-gray-50 p-3 rounded text-sm space-y-2">
+                    <div class="flex justify-between">
+                        <span>18-30岁</span>
+                        <span class="text-main font-medium">52元/年</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>31-50岁</span>
+                        <span class="text-main font-medium">96元/年</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>51-65岁</span>
+                        <span class="text-main font-medium">181元/年</span>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-3">年龄越高，身后执行成本折现越高</p>
+            </div>
+        </div>
+
+        <div class="bg-blue text-white p-4 rounded-xl shadow text-center">
+            <p class="text-sm">组合定价逻辑：<strong>风险评分确定费率档位</strong> + <strong>极值模型确定赔付边际</strong> + <strong>生命表确定身后成本</strong></p>
+        </div>
+    </div>
+</section>
+
+<!--商业测算关键结果-->
+<section id="data" class="py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold text-main text-center mb-8">商业测算关键结果</h2>
+
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-6 mb-6">
+                <div class="bg-white p-6 rounded-xl shadow text-center hover:shadow-lg transition">
+                    <div class="w-14 h-14 mx-auto rounded-full bg-blue/10 flex items-center justify-center mb-3">
+                        <i class="fa fa-file-text-o text-blue text-2xl"></i>
+                    </div>
+                    <div class="text-3xl font-bold text-main mb-1">18万件</div>
+                    <div class="text-sm text-gray-600 mb-2">第三年在保保单</div>
+                    <div class="text-xs text-gray-500">预计参保规模稳步增长</div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow text-center hover:shadow-lg transition">
+                    <div class="w-14 h-14 mx-auto rounded-full bg-blue/10 flex items-center justify-center mb-3">
+                        <i class="fa fa-money text-blue text-2xl"></i>
+                    </div>
+                    <div class="text-3xl font-bold text-main mb-1">1390万元</div>
+                    <div class="text-sm text-gray-600 mb-2">第三年净利润</div>
+                    <div class="text-xs text-gray-500">保费收入覆盖赔付与运营成本</div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow text-center hover:shadow-lg transition">
+                    <div class="w-14 h-14 mx-auto rounded-full bg-blue/10 flex items-center justify-center mb-3">
+                        <i class="fa fa-balance-scale text-blue text-2xl"></i>
+                    </div>
+                    <div class="text-3xl font-bold text-main mb-1">≈78%</div>
+                    <div class="text-sm text-gray-600 mb-2">盈亏平衡赔付率</div>
+                    <div class="text-xs text-gray-500">赔付率低于该值具备经营空间</div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <div class="bg-white p-5 rounded-xl shadow">
+                    <h4 class="font-bold text-main mb-3">市场潜力</h4>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between p-2 bg-gray-50 rounded">
+                            <span>2026潜在投保人群</span>
+                            <span class="text-main font-medium">3200万人</span>
+                        </div>
+                        <div class="flex justify-between p-2 bg-gray-50 rounded">
+                            <span>目标人群渗透率</span>
+                            <span class="text-main font-medium">0.5%-1.5%</span>
+                        </div>
+                        <div class="flex justify-between p-2 bg-gray-50 rounded">
+                            <span>成熟期市场规模</span>
+                            <span class="text-main font-medium">十亿级别</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl shadow">
+                    <h4 class="font-bold text-main mb-3">风险缓释机制</h4>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between p-2 bg-gray-50 rounded">
+                            <span>等待期</span>
+                            <span class="text-main font-medium">30天</span>
+                        </div>
+                        <div class="flex justify-between p-2 bg-gray-50 rounded">
+                            <span>免赔额</span>
+                            <span class="text-main font-medium">200元/次</span>
+                        </div>
+                        <div class="flex justify-between p-2 bg-gray-50 rounded">
+                            <span>再保险安排</span>
+                            <span class="text-main font-medium">分层分散风险</span>
+                        </div>
+                        <div class="flex justify-between p-2 bg-gray-50 rounded">
+                            <span>数据安全</span>
+                            <span class="text-main font-medium">分片双钥托管</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-blue text-white p-4 rounded-xl shadow text-center">
+                <p class="text-sm">结论：第三年实现约 <strong>1390万元净利润</strong>，经营赔付率控制空间约 <strong>22%</strong>，具备商业可持续性</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--页脚-->
+<footer class="bg-main text-white py-8 mt-4">
+    <div class="container mx-auto px-4 text-center text-sm">
+        <p>数字隐私安护险｜2026浙江省大学生金融创新大赛作品</p>
+        <p class="opacity-70 mt-2">法律依据：个人信息保护法、民法典人格权编</p>
+    </div>
+</footer>
+
+</body>
+</html>
